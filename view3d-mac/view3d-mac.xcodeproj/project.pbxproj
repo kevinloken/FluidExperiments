@@ -1,0 +1,227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AF9803A14CF32C500948BD9 /* view3d_mac.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6AF9803914CF32C500948BD9 /* view3d_mac.1 */; };
+		6AF9804514CF32DD00948BD9 /* gluvi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9804014CF32DD00948BD9 /* gluvi.cpp */; };
+		6AF9804614CF32DD00948BD9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9804214CF32DD00948BD9 /* main.cpp */; };
+		6AF9804814CF32F600948BD9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF9804714CF32F600948BD9 /* GLUT.framework */; };
+		6AF9804A14CF330100948BD9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF9804914CF330100948BD9 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6AF9803114CF32C500948BD9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				6AF9803A14CF32C500948BD9 /* view3d_mac.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6AF9803314CF32C500948BD9 /* view3d-mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "view3d-mac"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF9803914CF32C500948BD9 /* view3d_mac.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = view3d_mac.1; sourceTree = "<group>"; };
+		6AF9804014CF32DD00948BD9 /* gluvi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gluvi.cpp; sourceTree = "<group>"; };
+		6AF9804114CF32DD00948BD9 /* gluvi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gluvi.h; sourceTree = "<group>"; };
+		6AF9804214CF32DD00948BD9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6AF9804314CF32DD00948BD9 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		6AF9804414CF32DD00948BD9 /* vec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec.h; sourceTree = "<group>"; };
+		6AF9804714CF32F600948BD9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		6AF9804914CF330100948BD9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AF9803014CF32C500948BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF9804A14CF330100948BD9 /* OpenGL.framework in Frameworks */,
+				6AF9804814CF32F600948BD9 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AF9802814CF32C500948BD9 = {
+			isa = PBXGroup;
+			children = (
+				6AF9804914CF330100948BD9 /* OpenGL.framework */,
+				6AF9804714CF32F600948BD9 /* GLUT.framework */,
+				6AF9803614CF32C500948BD9 /* view3d-mac */,
+				6AF9803414CF32C500948BD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AF9803414CF32C500948BD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9803314CF32C500948BD9 /* view3d-mac */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AF9803614CF32C500948BD9 /* view3d-mac */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9804014CF32DD00948BD9 /* gluvi.cpp */,
+				6AF9804114CF32DD00948BD9 /* gluvi.h */,
+				6AF9804214CF32DD00948BD9 /* main.cpp */,
+				6AF9804314CF32DD00948BD9 /* util.h */,
+				6AF9804414CF32DD00948BD9 /* vec.h */,
+				6AF9803914CF32C500948BD9 /* view3d_mac.1 */,
+			);
+			path = "view3d-mac";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AF9803214CF32C500948BD9 /* view3d-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF9803D14CF32C500948BD9 /* Build configuration list for PBXNativeTarget "view3d-mac" */;
+			buildPhases = (
+				6AF9802F14CF32C500948BD9 /* Sources */,
+				6AF9803014CF32C500948BD9 /* Frameworks */,
+				6AF9803114CF32C500948BD9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "view3d-mac";
+			productName = "view3d-mac";
+			productReference = 6AF9803314CF32C500948BD9 /* view3d-mac */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AF9802A14CF32C500948BD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Stone Sanctuary Interactive Inc.";
+			};
+			buildConfigurationList = 6AF9802D14CF32C500948BD9 /* Build configuration list for PBXProject "view3d-mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6AF9802814CF32C500948BD9;
+			productRefGroup = 6AF9803414CF32C500948BD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AF9803214CF32C500948BD9 /* view3d-mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AF9802F14CF32C500948BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF9804514CF32DD00948BD9 /* gluvi.cpp in Sources */,
+				6AF9804614CF32DD00948BD9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6AF9803B14CF32C500948BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6AF9803C14CF32C500948BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6AF9803E14CF32C500948BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6AF9803F14CF32C500948BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AF9802D14CF32C500948BD9 /* Build configuration list for PBXProject "view3d-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF9803B14CF32C500948BD9 /* Debug */,
+				6AF9803C14CF32C500948BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF9803D14CF32C500948BD9 /* Build configuration list for PBXNativeTarget "view3d-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF9803E14CF32C500948BD9 /* Debug */,
+				6AF9803F14CF32C500948BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AF9802A14CF32C500948BD9 /* Project object */;
+}

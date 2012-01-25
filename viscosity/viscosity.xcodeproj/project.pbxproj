@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AF9808D14CF45C100948BD9 /* viscosity.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6AF9808C14CF45C100948BD9 /* viscosity.1 */; };
+		6AF980A314CF45DF00948BD9 /* fluidsim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9809614CF45DF00948BD9 /* fluidsim.cpp */; };
+		6AF980A414CF45DF00948BD9 /* gluvi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9809814CF45DF00948BD9 /* gluvi.cpp */; };
+		6AF980A514CF45DF00948BD9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9809A14CF45DF00948BD9 /* main.cpp */; };
+		6AF980A614CF45DF00948BD9 /* openglutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9809B14CF45DF00948BD9 /* openglutils.cpp */; };
+		6AF980A814CF460800948BD9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF980A714CF460800948BD9 /* GLUT.framework */; };
+		6AF980AA14CF461100948BD9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF980A914CF461100948BD9 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6AF9808414CF45C100948BD9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				6AF9808D14CF45C100948BD9 /* viscosity.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6AF9808614CF45C100948BD9 /* viscosity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = viscosity; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF9808C14CF45C100948BD9 /* viscosity.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = viscosity.1; sourceTree = "<group>"; };
+		6AF9809314CF45DF00948BD9 /* array1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array1.h; sourceTree = "<group>"; };
+		6AF9809414CF45DF00948BD9 /* array2_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array2_utils.h; sourceTree = "<group>"; };
+		6AF9809514CF45DF00948BD9 /* array2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array2.h; sourceTree = "<group>"; };
+		6AF9809614CF45DF00948BD9 /* fluidsim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fluidsim.cpp; sourceTree = "<group>"; };
+		6AF9809714CF45DF00948BD9 /* fluidsim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fluidsim.h; sourceTree = "<group>"; };
+		6AF9809814CF45DF00948BD9 /* gluvi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gluvi.cpp; sourceTree = "<group>"; };
+		6AF9809914CF45DF00948BD9 /* gluvi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gluvi.h; sourceTree = "<group>"; };
+		6AF9809A14CF45DF00948BD9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6AF9809B14CF45DF00948BD9 /* openglutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = openglutils.cpp; sourceTree = "<group>"; };
+		6AF9809C14CF45DF00948BD9 /* openglutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openglutils.h; sourceTree = "<group>"; };
+		6AF9809E14CF45DF00948BD9 /* blas_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blas_wrapper.h; sourceTree = "<group>"; };
+		6AF9809F14CF45DF00948BD9 /* pcg_solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcg_solver.h; sourceTree = "<group>"; };
+		6AF980A014CF45DF00948BD9 /* sparse_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sparse_matrix.h; sourceTree = "<group>"; };
+		6AF980A114CF45DF00948BD9 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		6AF980A214CF45DF00948BD9 /* vec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec.h; sourceTree = "<group>"; };
+		6AF980A714CF460800948BD9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		6AF980A914CF461100948BD9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AF9808314CF45C100948BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF980AA14CF461100948BD9 /* OpenGL.framework in Frameworks */,
+				6AF980A814CF460800948BD9 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AF9807B14CF45C000948BD9 = {
+			isa = PBXGroup;
+			children = (
+				6AF980A914CF461100948BD9 /* OpenGL.framework */,
+				6AF980A714CF460800948BD9 /* GLUT.framework */,
+				6AF9808914CF45C100948BD9 /* viscosity */,
+				6AF9808714CF45C100948BD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AF9808714CF45C100948BD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9808614CF45C100948BD9 /* viscosity */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AF9808914CF45C100948BD9 /* viscosity */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9809314CF45DF00948BD9 /* array1.h */,
+				6AF9809414CF45DF00948BD9 /* array2_utils.h */,
+				6AF9809514CF45DF00948BD9 /* array2.h */,
+				6AF9809614CF45DF00948BD9 /* fluidsim.cpp */,
+				6AF9809714CF45DF00948BD9 /* fluidsim.h */,
+				6AF9809814CF45DF00948BD9 /* gluvi.cpp */,
+				6AF9809914CF45DF00948BD9 /* gluvi.h */,
+				6AF9809A14CF45DF00948BD9 /* main.cpp */,
+				6AF9809B14CF45DF00948BD9 /* openglutils.cpp */,
+				6AF9809C14CF45DF00948BD9 /* openglutils.h */,
+				6AF9809D14CF45DF00948BD9 /* pcgsolver */,
+				6AF980A114CF45DF00948BD9 /* util.h */,
+				6AF980A214CF45DF00948BD9 /* vec.h */,
+				6AF9808C14CF45C100948BD9 /* viscosity.1 */,
+			);
+			path = viscosity;
+			sourceTree = "<group>";
+		};
+		6AF9809D14CF45DF00948BD9 /* pcgsolver */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9809E14CF45DF00948BD9 /* blas_wrapper.h */,
+				6AF9809F14CF45DF00948BD9 /* pcg_solver.h */,
+				6AF980A014CF45DF00948BD9 /* sparse_matrix.h */,
+			);
+			path = pcgsolver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AF9808514CF45C100948BD9 /* viscosity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF9809014CF45C100948BD9 /* Build configuration list for PBXNativeTarget "viscosity" */;
+			buildPhases = (
+				6AF9808214CF45C100948BD9 /* Sources */,
+				6AF9808314CF45C100948BD9 /* Frameworks */,
+				6AF9808414CF45C100948BD9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = viscosity;
+			productName = viscosity;
+			productReference = 6AF9808614CF45C100948BD9 /* viscosity */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AF9807D14CF45C000948BD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Stone Sanctuary Interactive Inc.";
+			};
+			buildConfigurationList = 6AF9808014CF45C000948BD9 /* Build configuration list for PBXProject "viscosity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6AF9807B14CF45C000948BD9;
+			productRefGroup = 6AF9808714CF45C100948BD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AF9808514CF45C100948BD9 /* viscosity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AF9808214CF45C100948BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF980A314CF45DF00948BD9 /* fluidsim.cpp in Sources */,
+				6AF980A414CF45DF00948BD9 /* gluvi.cpp in Sources */,
+				6AF980A514CF45DF00948BD9 /* main.cpp in Sources */,
+				6AF980A614CF45DF00948BD9 /* openglutils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6AF9808E14CF45C100948BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6AF9808F14CF45C100948BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6AF9809114CF45C100948BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6AF9809214CF45C100948BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AF9808014CF45C000948BD9 /* Build configuration list for PBXProject "viscosity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF9808E14CF45C100948BD9 /* Debug */,
+				6AF9808F14CF45C100948BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF9809014CF45C100948BD9 /* Build configuration list for PBXNativeTarget "viscosity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF9809114CF45C100948BD9 /* Debug */,
+				6AF9809214CF45C100948BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AF9807D14CF45C000948BD9 /* Project object */;
+}

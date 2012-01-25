@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AF9805D14CF43F800948BD9 /* variational2d.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6AF9805C14CF43F800948BD9 /* variational2d.1 */; };
+		6AF9807314CF441200948BD9 /* fluidsim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9806614CF441200948BD9 /* fluidsim.cpp */; };
+		6AF9807414CF441200948BD9 /* gluvi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9806814CF441200948BD9 /* gluvi.cpp */; };
+		6AF9807514CF441200948BD9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9806A14CF441200948BD9 /* main.cpp */; };
+		6AF9807614CF441200948BD9 /* openglutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9806B14CF441200948BD9 /* openglutils.cpp */; };
+		6AF9807814CF441E00948BD9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF9807714CF441E00948BD9 /* GLUT.framework */; };
+		6AF9807A14CF442400948BD9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF9807914CF442400948BD9 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6AF9805414CF43F800948BD9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				6AF9805D14CF43F800948BD9 /* variational2d.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6AF9805614CF43F800948BD9 /* variational2d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = variational2d; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF9805C14CF43F800948BD9 /* variational2d.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = variational2d.1; sourceTree = "<group>"; };
+		6AF9806314CF441200948BD9 /* array1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array1.h; sourceTree = "<group>"; };
+		6AF9806414CF441200948BD9 /* array2_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array2_utils.h; sourceTree = "<group>"; };
+		6AF9806514CF441200948BD9 /* array2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array2.h; sourceTree = "<group>"; };
+		6AF9806614CF441200948BD9 /* fluidsim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fluidsim.cpp; sourceTree = "<group>"; };
+		6AF9806714CF441200948BD9 /* fluidsim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fluidsim.h; sourceTree = "<group>"; };
+		6AF9806814CF441200948BD9 /* gluvi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gluvi.cpp; sourceTree = "<group>"; };
+		6AF9806914CF441200948BD9 /* gluvi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gluvi.h; sourceTree = "<group>"; };
+		6AF9806A14CF441200948BD9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6AF9806B14CF441200948BD9 /* openglutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = openglutils.cpp; sourceTree = "<group>"; };
+		6AF9806C14CF441200948BD9 /* openglutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openglutils.h; sourceTree = "<group>"; };
+		6AF9806E14CF441200948BD9 /* blas_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blas_wrapper.h; sourceTree = "<group>"; };
+		6AF9806F14CF441200948BD9 /* pcg_solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcg_solver.h; sourceTree = "<group>"; };
+		6AF9807014CF441200948BD9 /* sparse_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sparse_matrix.h; sourceTree = "<group>"; };
+		6AF9807114CF441200948BD9 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		6AF9807214CF441200948BD9 /* vec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec.h; sourceTree = "<group>"; };
+		6AF9807714CF441E00948BD9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		6AF9807914CF442400948BD9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AF9805314CF43F800948BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF9807A14CF442400948BD9 /* OpenGL.framework in Frameworks */,
+				6AF9807814CF441E00948BD9 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AF9804B14CF43F800948BD9 = {
+			isa = PBXGroup;
+			children = (
+				6AF9807914CF442400948BD9 /* OpenGL.framework */,
+				6AF9807714CF441E00948BD9 /* GLUT.framework */,
+				6AF9805914CF43F800948BD9 /* variational2d */,
+				6AF9805714CF43F800948BD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AF9805714CF43F800948BD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9805614CF43F800948BD9 /* variational2d */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AF9805914CF43F800948BD9 /* variational2d */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9806314CF441200948BD9 /* array1.h */,
+				6AF9806414CF441200948BD9 /* array2_utils.h */,
+				6AF9806514CF441200948BD9 /* array2.h */,
+				6AF9806614CF441200948BD9 /* fluidsim.cpp */,
+				6AF9806714CF441200948BD9 /* fluidsim.h */,
+				6AF9806814CF441200948BD9 /* gluvi.cpp */,
+				6AF9806914CF441200948BD9 /* gluvi.h */,
+				6AF9806A14CF441200948BD9 /* main.cpp */,
+				6AF9806B14CF441200948BD9 /* openglutils.cpp */,
+				6AF9806C14CF441200948BD9 /* openglutils.h */,
+				6AF9806D14CF441200948BD9 /* pcgsolver */,
+				6AF9807114CF441200948BD9 /* util.h */,
+				6AF9807214CF441200948BD9 /* vec.h */,
+				6AF9805C14CF43F800948BD9 /* variational2d.1 */,
+			);
+			path = variational2d;
+			sourceTree = "<group>";
+		};
+		6AF9806D14CF441200948BD9 /* pcgsolver */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9806E14CF441200948BD9 /* blas_wrapper.h */,
+				6AF9806F14CF441200948BD9 /* pcg_solver.h */,
+				6AF9807014CF441200948BD9 /* sparse_matrix.h */,
+			);
+			path = pcgsolver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AF9805514CF43F800948BD9 /* variational2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF9806014CF43F800948BD9 /* Build configuration list for PBXNativeTarget "variational2d" */;
+			buildPhases = (
+				6AF9805214CF43F800948BD9 /* Sources */,
+				6AF9805314CF43F800948BD9 /* Frameworks */,
+				6AF9805414CF43F800948BD9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = variational2d;
+			productName = variational2d;
+			productReference = 6AF9805614CF43F800948BD9 /* variational2d */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AF9804D14CF43F800948BD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Stone Sanctuary Interactive Inc.";
+			};
+			buildConfigurationList = 6AF9805014CF43F800948BD9 /* Build configuration list for PBXProject "variational2d" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6AF9804B14CF43F800948BD9;
+			productRefGroup = 6AF9805714CF43F800948BD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AF9805514CF43F800948BD9 /* variational2d */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AF9805214CF43F800948BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF9807314CF441200948BD9 /* fluidsim.cpp in Sources */,
+				6AF9807414CF441200948BD9 /* gluvi.cpp in Sources */,
+				6AF9807514CF441200948BD9 /* main.cpp in Sources */,
+				6AF9807614CF441200948BD9 /* openglutils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6AF9805E14CF43F800948BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6AF9805F14CF43F800948BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6AF9806114CF43F800948BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6AF9806214CF43F800948BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AF9805014CF43F800948BD9 /* Build configuration list for PBXProject "variational2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF9805E14CF43F800948BD9 /* Debug */,
+				6AF9805F14CF43F800948BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF9806014CF43F800948BD9 /* Build configuration list for PBXNativeTarget "variational2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF9806114CF43F800948BD9 /* Debug */,
+				6AF9806214CF43F800948BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AF9804D14CF43F800948BD9 /* Project object */;
+}

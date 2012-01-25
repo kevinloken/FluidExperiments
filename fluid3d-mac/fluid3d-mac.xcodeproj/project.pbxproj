@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AF9800214CF321800948BD9 /* fluid3d_mac.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6AF9800114CF321800948BD9 /* fluid3d_mac.1 */; };
+		6AF9802214CF323700948BD9 /* fluidsim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9800D14CF323700948BD9 /* fluidsim.cpp */; };
+		6AF9802314CF323700948BD9 /* levelset_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9800F14CF323700948BD9 /* levelset_util.cpp */; };
+		6AF9802414CF323700948BD9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9801114CF323700948BD9 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6AF97FF914CF321800948BD9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				6AF9800214CF321800948BD9 /* fluid3d_mac.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6AF97FFB14CF321800948BD9 /* fluid3d-mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fluid3d-mac"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF9800114CF321800948BD9 /* fluid3d_mac.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = fluid3d_mac.1; sourceTree = "<group>"; };
+		6AF9800814CF323700948BD9 /* array1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array1.h; sourceTree = "<group>"; };
+		6AF9800914CF323700948BD9 /* array2_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array2_utils.h; sourceTree = "<group>"; };
+		6AF9800A14CF323700948BD9 /* array2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array2.h; sourceTree = "<group>"; };
+		6AF9800B14CF323700948BD9 /* array3_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array3_utils.h; sourceTree = "<group>"; };
+		6AF9800C14CF323700948BD9 /* array3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array3.h; sourceTree = "<group>"; };
+		6AF9800D14CF323700948BD9 /* fluidsim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fluidsim.cpp; sourceTree = "<group>"; };
+		6AF9800E14CF323700948BD9 /* fluidsim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fluidsim.h; sourceTree = "<group>"; };
+		6AF9800F14CF323700948BD9 /* levelset_util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = levelset_util.cpp; sourceTree = "<group>"; };
+		6AF9801014CF323700948BD9 /* levelset_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = levelset_util.h; sourceTree = "<group>"; };
+		6AF9801114CF323700948BD9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6AF9801314CF323700948BD9 /* blas_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blas_wrapper.h; sourceTree = "<group>"; };
+		6AF9801414CF323700948BD9 /* pcg_solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcg_solver.h; sourceTree = "<group>"; };
+		6AF9801514CF323700948BD9 /* sparse_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sparse_matrix.h; sourceTree = "<group>"; };
+		6AF9802014CF323700948BD9 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		6AF9802114CF323700948BD9 /* vec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AF97FF814CF321800948BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AF97FF014CF321800948BD9 = {
+			isa = PBXGroup;
+			children = (
+				6AF97FFE14CF321800948BD9 /* fluid3d-mac */,
+				6AF97FFC14CF321800948BD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AF97FFC14CF321800948BD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AF97FFB14CF321800948BD9 /* fluid3d-mac */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AF97FFE14CF321800948BD9 /* fluid3d-mac */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9800814CF323700948BD9 /* array1.h */,
+				6AF9800914CF323700948BD9 /* array2_utils.h */,
+				6AF9800A14CF323700948BD9 /* array2.h */,
+				6AF9800B14CF323700948BD9 /* array3_utils.h */,
+				6AF9800C14CF323700948BD9 /* array3.h */,
+				6AF9800D14CF323700948BD9 /* fluidsim.cpp */,
+				6AF9800E14CF323700948BD9 /* fluidsim.h */,
+				6AF9800F14CF323700948BD9 /* levelset_util.cpp */,
+				6AF9801014CF323700948BD9 /* levelset_util.h */,
+				6AF9801114CF323700948BD9 /* main.cpp */,
+				6AF9801214CF323700948BD9 /* pcgsolver */,
+				6AF9802014CF323700948BD9 /* util.h */,
+				6AF9802114CF323700948BD9 /* vec.h */,
+				6AF9800114CF321800948BD9 /* fluid3d_mac.1 */,
+			);
+			path = "fluid3d-mac";
+			sourceTree = "<group>";
+		};
+		6AF9801214CF323700948BD9 /* pcgsolver */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9801314CF323700948BD9 /* blas_wrapper.h */,
+				6AF9801414CF323700948BD9 /* pcg_solver.h */,
+				6AF9801514CF323700948BD9 /* sparse_matrix.h */,
+			);
+			path = pcgsolver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AF97FFA14CF321800948BD9 /* fluid3d-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF9800514CF321800948BD9 /* Build configuration list for PBXNativeTarget "fluid3d-mac" */;
+			buildPhases = (
+				6AF97FF714CF321800948BD9 /* Sources */,
+				6AF97FF814CF321800948BD9 /* Frameworks */,
+				6AF97FF914CF321800948BD9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fluid3d-mac";
+			productName = "fluid3d-mac";
+			productReference = 6AF97FFB14CF321800948BD9 /* fluid3d-mac */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AF97FF214CF321800948BD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Stone Sanctuary Interactive Inc.";
+			};
+			buildConfigurationList = 6AF97FF514CF321800948BD9 /* Build configuration list for PBXProject "fluid3d-mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6AF97FF014CF321800948BD9;
+			productRefGroup = 6AF97FFC14CF321800948BD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AF97FFA14CF321800948BD9 /* fluid3d-mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AF97FF714CF321800948BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF9802214CF323700948BD9 /* fluidsim.cpp in Sources */,
+				6AF9802314CF323700948BD9 /* levelset_util.cpp in Sources */,
+				6AF9802414CF323700948BD9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6AF9800314CF321800948BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6AF9800414CF321800948BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6AF9800614CF321800948BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6AF9800714CF321800948BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AF97FF514CF321800948BD9 /* Build configuration list for PBXProject "fluid3d-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF9800314CF321800948BD9 /* Debug */,
+				6AF9800414CF321800948BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF9800514CF321800948BD9 /* Build configuration list for PBXNativeTarget "fluid3d-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF9800614CF321800948BD9 /* Debug */,
+				6AF9800714CF321800948BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AF97FF214CF321800948BD9 /* Project object */;
+}
