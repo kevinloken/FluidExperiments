@@ -1,0 +1,2 @@
+C:\Documents and Settings\A8J\My Documents\Visual Studio 2005\Projects\JelloPhysics_GS2\JelloPhysics_Demo_01\Content\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\A8J\My Documents\Visual Studio 2005\Projects\JelloPhysics_GS2\JelloPhysics_Demo_01\Content\obj\Xbox 360\Release\ResolveAssemblyReference.cache

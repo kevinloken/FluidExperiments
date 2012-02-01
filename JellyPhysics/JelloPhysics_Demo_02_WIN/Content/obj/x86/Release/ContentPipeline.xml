@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <RootDirectory>C:\Documents and Settings\A8J\My Documents\Visual Studio 2005\Projects\JelloPhysics_GS2\JelloPhysics_Demo_02_WIN\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Documents and Settings\A8J\My Documents\Visual Studio 2005\Projects\JelloPhysics_GS2\JelloPhysics_Demo_02_WIN\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Documents and Settings\A8J\My Documents\Visual Studio 2005\Projects\JelloPhysics_GS2\JelloPhysics_Demo_02_WIN\Content\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Documents and Settings\A8J\My Documents\Visual Studio 2005\Projects\JelloPhysics_GS2\JelloPhysics_Demo_02_WIN\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\WINDOWS\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\2.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2007-12-13T19:52:12-08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

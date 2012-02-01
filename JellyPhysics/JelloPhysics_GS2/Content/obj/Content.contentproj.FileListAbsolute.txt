@@ -1,0 +1,4 @@
+C:\Documents and Settings\A8J\My Documents\Visual Studio 2005\Projects\JelloPhysics_GS2\JelloPhysics_GS2\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\A8J\My Documents\Visual Studio 2005\Projects\JelloPhysics_GS2\JelloPhysics_GS2\Content\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\A8J\My Documents\Visual Studio 2005\Projects\JelloPhysics_GS2\JelloPhysics_GS2\Content\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\A8J\My Documents\Visual Studio 2005\Projects\JelloPhysics_GS2\JelloPhysics_GS2\Content\obj\Xbox 360\Release\ResolveAssemblyReference.cache
